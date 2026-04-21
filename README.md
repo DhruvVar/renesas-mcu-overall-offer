@@ -62,3 +62,179 @@ This repository is intended to help developers quickly find the right starting p
 The public software offer for Renesas RA MCUs is centered on two main repositories:
 
 ### 1. Flexible Software Package (FSP)
+The **FSP** repository is the primary software foundation for RA MCUs. It provides drivers, middleware, RTOS integration, development support, release assets, and links to official documentation.
+
+**Repository:**  
+[renesas/fsp](https://github.com/renesas/fsp)
+
+### 2. RA Example Projects and Application Projects
+The **ra-fsp-examples** repository provides public:
+- **Example Projects** for basic peripheral and middleware usage
+- **Application Projects** for more complete solutions and reference implementations
+
+**Repository:**  
+[renesas/ra-fsp-examples](https://github.com/renesas/ra-fsp-examples)
+
+---
+
+## Start Here by Goal
+
+## I want to start a new RA project
+Recommended flow:
+
+1. Review the [RA Product Page](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus)
+2. Go to the [RA Flexible Software Package (FSP) page](https://www.renesas.com/en/software-tool/ra-flexible-software-package-fsp)
+3. Open the [RA FSP Documentation](https://renesas.github.io/fsp/)
+4. Browse [RA Example Projects](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects)
+
+---
+
+## I want example projects for a board or peripheral
+Start with:
+
+- [RA Example Projects Root](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects)
+- [RA Example Project Releases](https://github.com/renesas/ra-fsp-examples/releases)
+
+A strong public showcase path is:
+
+- [EK-RA8P1 Example Projects](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects/ek_ra8p1)
+
+This board path includes a wide range of public examples across storage, networking, USB, graphics, AI, low power, memory, security, camera, and display features.
+
+---
+
+## I want reference applications / full project examples
+Start with:
+
+- [RA Application Projects Root](https://github.com/renesas/ra-fsp-examples/tree/master/application_projects)
+
+This area contains larger application and solution-oriented projects that complement the lower-level example projects.
+
+---
+
+## I want TrustZone, security, or secure boot examples
+Start with:
+
+- [RA Arm TrustZone Example Project Quick Start Guide](https://github.com/renesas/ra-fsp-examples/blob/master/example_projects/ra-arm-trustzone-ep-qsg.pdf)
+- [EK-RA6M4 TrustZone Examples](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects/ek_ra6m4/trustzone)
+- [EK-RA8D2 TrustZone README](https://github.com/renesas/ra-fsp-examples/blob/master/example_projects/ek_ra8d2/trustzone/doc/readme.txt)
+- [RA6 Booting Encrypted Image using MCUboot and QSPI](https://github.com/renesas/ra-fsp-examples/tree/master/application_projects/r11an0567/RA6_Booting_Encrypted_Image_using_MCUboot_and_QSPI)
+
+These are good public entry points for:
+- TrustZone evaluation
+- secure / non-secure build flows
+- MCUboot-based secure boot flows
+- encrypted boot and external memory related examples
+
+---
+
+## I want AI / Edge AI resources for RA8
+Start with:
+
+- [renesas/ruhmi-framework-mcu](https://github.com/renesas/ruhmi-framework-mcu/tree/main)
+- [RUHMI Releases](https://github.com/renesas/ruhmi-framework-mcu/releases)
+
+Featured RA8P1 examples:
+
+- [Face Detection Example](https://github.com/renesas/ruhmi-framework-mcu/tree/main/application_examples/face_detection)
+- [Image Classification Example](https://github.com/renesas/ruhmi-framework-mcu/tree/main/application_examples/image_classification)
+
+These examples demonstrate AI deployment flows on Renesas RA platforms using the RUHMI Framework.
+
+---
+
+## I want graphics or display-related public components
+Start with:
+
+- [renesas/libdave2d](https://github.com/renesas/libdave2d)
+
+For broader board-level public graphics and display examples, browse:
+
+- [RA Example Projects Root](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects)
+- [EK-RA8P1 Example Projects](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects/ek_ra8p1)
+
+---
+
+## Repository Map
+
+## Core RA Software
+- [renesas/fsp](https://github.com/renesas/fsp)
+- [renesas/ra-fsp-examples](https://github.com/renesas/ra-fsp-examples)
+
+## Specialized RA Public Repositories
+- [renesas/libdave2d](https://github.com/renesas/libdave2d)
+- [renesas/ruhmi-framework-mcu](https://github.com/renesas/ruhmi-framework-mcu/tree/main)
+
+## RA-Related Ecosystem Repositories in the Renesas Organization
+- [renesas/zephyr](https://github.com/renesas/zephyr)
+- [renesas/hal_renesas](https://github.com/renesas/hal_renesas)
+
+These repositories are part of the broader Renesas public GitHub presence and may be relevant depending on your software stack and workflow.
+
+---
+
+## Featured Public Paths
+
+### Main Software Package
+- [FSP Repository](https://github.com/renesas/fsp)
+- [FSP Releases](https://github.com/renesas/fsp/releases)
+- [FSP Documentation](https://renesas.github.io/fsp/)
+
+### Main Examples / Applications
+- [RA Example Projects Root](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects)
+- [RA Application Projects Root](https://github.com/renesas/ra-fsp-examples/tree/master/application_projects)
+- [RA Example Project Releases](https://github.com/renesas/ra-fsp-examples/releases)
+
+### Board / Feature Showcase
+- [EK-RA8P1 Example Projects](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects/ek_ra8p1)
+
+### Security / TrustZone / MCUboot
+- [RA Arm TrustZone Example Project Quick Start Guide](https://github.com/renesas/ra-fsp-examples/blob/master/example_projects/ra-arm-trustzone-ep-qsg.pdf)
+- [EK-RA6M4 TrustZone Examples](https://github.com/renesas/ra-fsp-examples/tree/master/example_projects/ek_ra6m4/trustzone)
+- [RA6 Booting Encrypted Image using MCUboot and QSPI](https://github.com/renesas/ra-fsp-examples/tree/master/application_projects/r11an0567/RA6_Booting_Encrypted_Image_using_MCUboot_and_QSPI)
+
+### AI / Edge AI
+- [RUHMI Framework](https://github.com/renesas/ruhmi-framework-mcu/tree/main)
+- [RA8P1 Face Detection Example](https://github.com/renesas/ruhmi-framework-mcu/tree/main/application_examples/face_detection)
+- [RA8P1 Image Classification Example](https://github.com/renesas/ruhmi-framework-mcu/tree/main/application_examples/image_classification)
+
+### Specialized Components
+- [libdave2d](https://github.com/renesas/libdave2d)
+
+---
+
+## Related Official Resources
+
+### Product and Software
+- [RA Product Page](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus)
+- [RA Flexible Software Package (FSP)](https://www.renesas.com/en/software-tool/ra-flexible-software-package-fsp)
+
+### Documentation and Downloads
+- [RA FSP Documentation](https://renesas.github.io/fsp/)
+- [FSP Releases](https://github.com/renesas/fsp/releases)
+- [RA Example Project Releases](https://github.com/renesas/ra-fsp-examples/releases)
+
+### Support and Tools
+- [e² studio](https://www.renesas.com/e2studio)
+- [RA Product Support Forum](https://www.renesas.com/ra/forum)
+- [RA / FSP Knowledge Base](https://en-support.renesas.com/knowledgeBase/category/31087)
+- [Renesas Support](https://www.renesas.com/support)
+
+---
+
+## Notes
+
+- This page is intended to improve discoverability across public **RA MCU** GitHub resources.
+- The main software package for the public RA offer is **FSP**.
+- The main public code hub for examples and applications is **ra-fsp-examples**.
+- Additional public repositories may be relevant depending on your workflow, including AI, graphics, and open-source ecosystem integrations.
+
+---
+
+## Renesas GitHub Organization
+
+To browse all public Renesas repositories, visit:
+
+- [Renesas GitHub Organization](https://github.com/renesas)
+
+---
